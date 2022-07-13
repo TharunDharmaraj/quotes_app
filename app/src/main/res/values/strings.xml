@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">quotes_app</string>
+    <string name="app_name">Quotify</string>
+    <string name="Hello">"Start over"</string>
+    <string name="phone_number">"phone number"</string>
+    <string name="password">"password"</string>
+    <string name="login_text">"login"</string>
+    <string name="forgot_password">"Forgot Password?"</string>
+    <string name="signup_login">"signup?"</string>
+    <string name="login">"login"</string>
+    <string name="signup">"signup"</string>
+    <string name="login_signup">"login?"</string>
+
 </resources>
