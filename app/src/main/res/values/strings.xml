@@ -7,7 +7,11 @@
     <string name="forgot_password">"Forgot Password?"</string>
     <string name="signup_login">"signup?"</string>
     <string name="login">"login"</string>
-    <string name="signup">"signup"</string>
+    <string name="signup">"sign up"</string>
     <string name="login_signup">"login?"</string>
-
+    <string name="username">username</string>
+    <string name="verification">"verification"</string>
+    <string name="verification_subtitles">"verification code sent to 9489473688 please enter the 6 digit code to get verified …"</string>
+    <string name="verify">"verify"</string>
+    <string name="resend_code">"resend code?"</string>
 </resources>

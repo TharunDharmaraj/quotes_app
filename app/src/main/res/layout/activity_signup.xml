@@ -13,7 +13,7 @@
         android:layout_marginStart="57dp"
         android:layout_marginTop="109dp"
         android:layout_marginEnd="56dp"
-        android:layout_weight="57">
+        android:layout_weight="60">
 
         <!--quotify text-->
         <TextView
@@ -27,10 +27,8 @@
             android:textStyle="italic" />
 
         <!--login text-->
-
-        <!--    input phone number-->
         <TextView
-            android:id="@+id/quotes_app_login"
+            android:id="@+id/quotes_app_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/quotes_app"
@@ -40,12 +38,31 @@
             android:textSize="26sp"
             android:textStyle="normal" />
 
+
+        <!--    input username-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_signup_field"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quotes_app_signup"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/username"
+            android:paddingTop="20sp"
+>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--    input phone number-->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/phone_number_field"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/quotes_app_login"
+            android:layout_below="@id/username_signup_field"
             android:layout_centerHorizontal="true"
             android:hint="@string/phone_number"
             android:paddingTop="20sp">
@@ -75,7 +92,6 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,11 +113,11 @@
             <!--            login button-->
             <Button
                 android:id="@+id/signup_button"
-                android:textAllCaps="false"
                 android:layout_width="120sp"
                 android:layout_height="48sp"
                 android:layout_alignParentEnd="true"
                 android:text="@string/signup"
+                android:textAllCaps="false"
                 android:textSize="20sp"
                 android:textStyle="normal" />
         </RelativeLayout>

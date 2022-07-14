@@ -1,4 +1,4 @@
-package com.example.quotes_app;
+package com.example.quotes_app.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.quotes_app.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent( MainActivity.this,activity_login.class));
+                startActivity(new Intent( MainActivity.this,SignupVerificationActivity.class));
             }
         });
 

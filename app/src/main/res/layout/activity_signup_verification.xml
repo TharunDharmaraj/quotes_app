@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="60">
+
+        <!--quotify text-->
+        <TextView
+            android:id="@+id/quotes_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="fedora"
+            android:text="@string/app_name"
+            android:textSize="32sp"
+            android:textStyle="italic" />
+
+        <!--verification text-->
+        <TextView
+            android:id="@+id/quotes_app_verification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quotes_app"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30sp"
+            android:text="@string/verification"
+            android:textSize="26sp"
+            android:textStyle="normal" />
+
+        <!--verification subtitle text-->
+        <TextView
+            android:id="@+id/quotes_app_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quotes_app_verification"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="30sp"
+            android:text="@string/verification_subtitles"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+
+        <!--verification number field-->
+        <com.chaos.view.PinView
+            android:id="@+id/verification_number"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quotes_app_signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:itemBackground="@drawable/verification_edit_text"
+            android:textColor="?attr/colorPrimary"
+            app:itemCount="5"
+            app:itemHeight="50dp"
+            app:itemRadius="5sp"
+            app:itemSpacing="10dp"
+            app:itemWidth="50dp"
+            app:lineColor="?attr/colorOnPrimary" />
+
+        <!--verify otp button -->
+        <Button
+            android:id="@+id/verify_otp_button"
+            android:layout_width="120sp"
+            android:layout_height="48sp"
+            android:layout_below="@+id/verification_number"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/verify"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+<!--        resend code text-->
+        <TextView
+            android:id="@+id/resend_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="fedora"
+            android:text="@string/resend_code"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_below="@id/verify_otp_button"
+            android:layout_marginTop="20sp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

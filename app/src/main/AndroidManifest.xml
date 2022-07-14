@@ -7,15 +7,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Quotes_app">
+        android:theme="@style/Theme.Quotes_app"
+        android:windowSoftInputMode="adjustResize">
         <activity
-            android:name=".activity_signup"
+            android:name=".ui.SignupVerificationActivity"
+            android:exported="false"
+            />
+
+        <activity
+            android:name=".ui.activity_signup"
             android:exported="false" />
         <activity
-            android:name=".activity_login"
+            android:name=".ui.activity_login"
             android:exported="false" />
+<!--            android:windowSoftInputMode="adjustResize"-->
+
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
