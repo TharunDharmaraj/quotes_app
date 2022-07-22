@@ -13,7 +13,8 @@
         android:layout_marginStart="57dp"
         android:layout_marginTop="109dp"
         android:layout_marginEnd="56dp"
-        android:layout_weight="60">
+        android:layout_weight="70"
+        android:id="@+id/parent">
 
         <!--quotify text-->
         <TextView
@@ -48,8 +49,8 @@
             android:layout_below="@id/quotes_app_signup"
             android:layout_centerHorizontal="true"
             android:hint="@string/username"
-            android:paddingTop="20sp"
->
+            android:paddingTop="20sp">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,9 +96,10 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/password_login_field"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:paddingBottom="10dp">
+            android:layout_marginTop="20dp">
 
             <!--        signup button -->
             <Button

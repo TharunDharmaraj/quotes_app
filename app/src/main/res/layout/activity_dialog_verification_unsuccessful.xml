@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialogue_box"
+    android:padding="15dp"
+    android:radius="20dp">
+
+    <!--unsuccessful header text-->
+    <TextView
+        android:id="@+id/unsuccessful_message_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4sp"
+        android:text="@string/unsuccessful_header_text"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".DialogVerificationUnsuccessful"/>
+
+    <!--unsuccessful message text-->
+    <TextView
+        android:id="@+id/unsuccessful_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@id/unsuccessful_message_header_text"
+        android:paddingTop="15sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/unsuccessful_message"
+        android:textSize="16sp" />
+
+    <!--back to verification button-->
+    <TextView
+        android:id="@+id/enter_password_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unsuccessful_message_text"
+        android:layout_alignParentEnd="true"
+        android:paddingStart="0sp"
+        android:paddingTop="15sp"
+        android:paddingEnd="10sp"
+        android:text="@string/back_to_verification"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+

@@ -14,4 +14,15 @@
     <string name="verification_subtitles">"verification code sent to 9489473688 please enter the 6 digit code to get verified …"</string>
     <string name="verify">"verify"</string>
     <string name="resend_code">"resend code?"</string>
+    <string name="successful_header_text">"successful"</string>
+    <string name="successful_message">"phone number verification successful.... enter password to continue"</string>
+    <string name="enter_password">"enter password"</string>
+    <string name="unsuccessful_header_text">"unsuccessful"</string>
+    <string name="unsuccessful_message">"phone number verification successful.... enter password to continue"</string>
+    <string name="back_to_verification">"back to verification"</string>
+    <string name="forgot_pass_header">"forgot password"</string>
+    <string name="new_password">"new password"</string>
+    <string name="retype_password">"retype password"</string>
+    <string name="change_password_button">"change password"</string>
+    <string name="signOut">"sign out"</string>
 </resources>

@@ -3,21 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/dialogue_box.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/pinview_box.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/verification_edit_text.xml" value="0.104" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout-w936dp/activity_login.xml" value="0.138671875" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_dialog_verification_successful.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_dialog_verification_unsuccessful.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_dialog_verificattion_successful.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_dialogue_verification_unsuccessful.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_forgot_password.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_forgot_password_verification.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_homepage.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_signup.xml" value="0.22" />
-        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_signup_verification.xml" value="0.22" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_retype_password.xml" value="0.22" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_signup.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_signup_verification.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_signup_verificatuion.xml" value="0.140625" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/activity_test.xml" value="0.1" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/login_layout.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/otpedit.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/layout/pinentery.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

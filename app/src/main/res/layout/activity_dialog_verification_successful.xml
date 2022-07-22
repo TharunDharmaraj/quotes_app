@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialogue_box"
+    android:padding="15dp"
+    android:radius="20dp"
+ xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DialogVerificationSuccessful">
+
+    <!--successful header text-->
+    <TextView
+        android:id="@+id/successful_message_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4sp"
+        android:text="@string/successful_header_text"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <!--successful message text-->
+    <TextView
+        android:id="@+id/successful_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@id/successful_message_header_text"
+        android:paddingTop="15sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="@string/successful_message"
+        android:textSize="16sp" />
+
+    <!--            enter password button-->
+    <TextView
+        android:id="@+id/enter_password_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/successful_message_text"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="15sp"
+        android:paddingStart="0sp"
+        android:paddingEnd="10sp"
+        android:text="@string/enter_password"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
