@@ -10,6 +10,7 @@
         <item name="colorSecondaryVariant">@color/notification_btn_dark</item>
         <item name="colorOnSecondary">@color/btn_color_dark</item>
 <!--        <item name="colorOnTertiary">@color/white</item>-->
+        <item name="colorOnTertiary">@color/navbar_dark</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >?attr/colorOnPrimary</item>
         <!-- Customize your theme here. -->

@@ -6,6 +6,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.quotes_app.fragments.Homepage;
+
 /**
  * @author tharu
  */
@@ -17,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button mainButton = (Button) findViewById(R.id.main_button);
         mainButton.setOnClickListener(v -> startActivity(new Intent(
-                MainActivity.this, SignUp.class)));
+                MainActivity.this, Homepage.class)));
     }
 }

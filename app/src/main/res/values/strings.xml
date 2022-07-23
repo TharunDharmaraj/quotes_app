@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quotify</string>
+    <string name="app_name">Motiva Quotes</string>
     <string name="Hello">"Start over"</string>
     <string name="phone_number">"phone number"</string>
     <string name="password">"password"</string>
@@ -25,4 +25,14 @@
     <string name="retype_password">"retype password"</string>
     <string name="change_password_button">"change password"</string>
     <string name="signOut">"sign out"</string>
+    <string name="no_favourites">Nothing to add as favourites</string>
+    <string name="no_categories">Nothing to show as categories</string>
+    <string name="no_rewards">coming soon!</string>
+    <string name="title_activity_bottom_nav_menu">BottomNavMenu</string>
+    <string name="title_homepage">home</string>
+    <string name="title_categories">categories</string>
+    <string name="title_favourites">favourites</string>
+    <string name="title_my_rewards">my rewards</string>
+    <string name="title_settings">settings</string>
+    <string name="homepage">home</string>
 </resources>

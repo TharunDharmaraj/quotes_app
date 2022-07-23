@@ -18,7 +18,7 @@
         android:textAllCaps="true"
         android:textSize="20sp"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context=".DialogVerificationUnsuccessful"/>
+        tools:context=".Authentication.DialogVerificationUnsuccessful"/>
 
     <!--unsuccessful message text-->
     <TextView

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_button"
+        android:icon="@drawable/home_button"
+        android:title="@string/title_homepage" />
+
+    <item
+        android:id="@+id/categories_button"
+        android:icon="@drawable/categories_button"
+        android:title="@string/title_categories" />
+
+    <item
+        android:id="@+id/favourites_button"
+        android:icon="@drawable/favourites_button"
+        android:title="@string/title_favourites" />
+    <item
+        android:id="@+id/myrewards_button"
+        android:icon="@drawable/myreward_button"
+        android:title="@string/title_my_rewards" />
+    <item
+        android:id="@+id/settings_button"
+        android:icon="@drawable/settings_button"
+        android:title="@string/title_settings" />
+</menu>

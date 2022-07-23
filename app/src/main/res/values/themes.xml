@@ -10,6 +10,7 @@
         <item name="colorSecondaryVariant">@color/notification_btn_white</item>
         <item name="colorOnSecondary">@color/white</item>
 <!--        <item name="colorOnTertiary">@color/black</item>-->
+        <item name="colorOnTertiary">@color/navbar</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >?attr/colorOnPrimary</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>

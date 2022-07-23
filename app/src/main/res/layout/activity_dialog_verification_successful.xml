@@ -6,7 +6,7 @@
     android:padding="15dp"
     android:radius="20dp"
  xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".DialogVerificationSuccessful">
+    tools:context=".Authentication.DialogVerificationSuccessful">
 
     <!--successful header text-->
     <TextView
