@@ -2,8 +2,6 @@ package com.example.quotes_app.fragments;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,17 +10,14 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.quotes_app.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
-import com.google.firebase.auth.FirebaseAuth;
 
 /**
  * @author tharu
  */
 public class Homepage extends AppCompatActivity {
 
-    BottomNavigationView bottomNavigationView;
+
     BottomNavigationView navigationView;
-    private String mailId, username, password;
-    private FirebaseAuth mAuth;
     private BottomNavigationView.OnNavigationItemSelectedListener selectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -85,23 +80,6 @@ public class Homepage extends AppCompatActivity {
         fragmentTransaction.replace(R.id.content, fragment, "");
         fragmentTransaction.commit();
 
-        TextView answerText = (TextView) findViewById(R.id.extra2);
-        Button signOut = (Button) findViewById(R.id.signout_button);
-//        Intent i = getIntent();
-//        mailId = i.getStringExtra("mail_key").toString();
-//        username = i.getStringExtra("username_key").toString();
-//        password = i.getStringExtra("password_key").toString();
-//        answerText.setText(mailId + "\n" + username + "\n" + password);
 
-//        signOut.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (v.getId() == R.id.signout_button) {
-//                    FirebaseAuth.getInstance().signOut();
-//                    startActivity(new Intent(Homepage.this, Login.class));
-//                    finish();
-//                }
-//            }
-//        });
     }
 }
