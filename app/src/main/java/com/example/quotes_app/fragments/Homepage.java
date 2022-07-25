@@ -75,11 +75,16 @@ public class Homepage extends AppCompatActivity {
         navigationView.setLabelVisibilityMode(NavigationBarView.LABEL_VISIBILITY_LABELED);
 
 
+//        HomeFragment fragment = new HomeFragment();
+//        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//        fragmentTransaction.replace(R.id.content, fragment, "");
+//        fragmentTransaction.commit();
+
         HomeFragment fragment = new HomeFragment();
+        String TAG = fragment.getClass().getSimpleName();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.content, fragment, "");
+        fragmentTransaction.add(R.id.content, fragment, TAG);
+        fragmentTransaction.addToBackStack(TAG);
         fragmentTransaction.commit();
-
-
     }
 }

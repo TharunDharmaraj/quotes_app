@@ -35,4 +35,13 @@
     <string name="title_my_rewards">my rewards</string>
     <string name="title_settings">settings</string>
     <string name="homepage">home</string>
+    <string name="language">language</string>
+    <string name="profile">my profile</string>
+    <string name="change_theme">change theme</string>
+    <string name="log_info">logged in as</string>
+    <string name="logout">logout</string>
+    <string name="terms">terms and services   |   privacy policies</string>
+    <string name="light_theme">light_theme</string>
+    <string name="dark_theme">dark_theme</string>
+    <string name="system_theme">system default</string>
 </resources>

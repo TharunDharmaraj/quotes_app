@@ -9,6 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.quotes_app.R;
 
+/**
+ * @author tharu
+ */
 public class CategoriesFragment extends Fragment {
 
     public CategoriesFragment(){

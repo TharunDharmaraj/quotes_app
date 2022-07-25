@@ -9,6 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.quotes_app.R;
 
+/**
+ * @author tharu
+ */
 public class MyRewardsFragment extends Fragment {
 
     public MyRewardsFragment(){

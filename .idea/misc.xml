@@ -3,14 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/categories_button.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/dotted_line.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/edit_button.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/edit_icon.xml" value="0.1585" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/favourites_button.xml" value="0.1585" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/home_button.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/language_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/logout_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/mail_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/menu_theme.xml" value="0.1075" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/myreward_button.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/profile_icon.xml" value="0.1585" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/settings.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/theme_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/drawable/user_profile_icon.xml" value="0.1585" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_dialog_verification_successful.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_dialog_verification_unsuccessful.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_forgot_password.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_forgot_password_verification.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_homepage.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_login.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_retype_password.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_signup.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/activity_signup_verification.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/bottom_nav_menu.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_categories.xml" value="0.10729166666666666" />
@@ -18,9 +36,10 @@
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_favourites.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_myrewards.xml" value="0.10729166666666666" />
-        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_settings.xml" value="0.15" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/fragment_settings.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/layout/home_fragment.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/mainstream/quotes_app/app/src/main/res/menu/theme_menu.xml" value="0.22" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/dialogue_box.xml" value="0.1585" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/pinview_box.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/quotes_app/app/src/main/res/drawable/verification_edit_text.xml" value="0.104" />

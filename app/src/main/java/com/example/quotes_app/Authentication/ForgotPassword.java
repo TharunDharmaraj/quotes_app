@@ -15,6 +15,9 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+/**
+ * @author tharu
+ */
 public class ForgotPassword extends AppCompatActivity {
     TextInputLayout phoneNumberField;
     Button forgotPasswordButton;
