@@ -32,7 +32,6 @@ public class HomeFragment extends Fragment {
         super.onCreate(savedInstanceState);
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         TextView answerText = (TextView) view.findViewById(R.id.extra2);
-        Button signOut = (Button) view.findViewById(R.id.signout_button);
 //        Intent i = getActivity().getIntent();
 //        mailId = i.getStringExtra("mail_key").toString();
 //        username = i.getStringExtra("username_key").toString();
@@ -40,16 +39,7 @@ public class HomeFragment extends Fragment {
 //        answerText.setText(mailId + "\n" + username + "\n" + password);
 //        Log.d("message",mailId + "\n" + username + "\n" + password);
 
-        signOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                Intent i =new Intent(getActivity(), com.example.quotes_app.Authentication.Login.class);
-                startActivity(i);
-                getActivity().finish();
-                Toast.makeText(getContext(),"Signed Out",Toast.LENGTH_LONG).show();
-            }
-        });
+
         // Inflate the layout for this fragment
         return view;
     }

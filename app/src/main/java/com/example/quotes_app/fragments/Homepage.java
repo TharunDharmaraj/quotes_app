@@ -83,19 +83,8 @@ public class Homepage extends AppCompatActivity {
             fragmentTransaction.commit();
         }
 
-//        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("SharedPrefs", MODE_PRIVATE);
-//        boolean isNightMode = sharedPreferences.getBoolean("SwitchState", true);
-//        if (isNightMode) {
-//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-//        } else {
-//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-//        }
-
-
     }
 }
 
 
-//Freelancing project
-//        Mobile cum webapp
-//        About sharing quotes with a reward based revenue model
+//
