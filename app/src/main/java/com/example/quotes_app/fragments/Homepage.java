@@ -75,16 +75,27 @@ public class Homepage extends AppCompatActivity {
         navigationView.setLabelVisibilityMode(NavigationBarView.LABEL_VISIBILITY_LABELED);
 
 
-//        HomeFragment fragment = new HomeFragment();
-//        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//        fragmentTransaction.replace(R.id.content, fragment, "");
-//        fragmentTransaction.commit();
+        if (savedInstanceState == null) {
+            // do fragment transactions here
+            HomeFragment fragment = new HomeFragment();
+            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.content, fragment, "");
+            fragmentTransaction.commit();
+        }
 
-        HomeFragment fragment = new HomeFragment();
-        String TAG = fragment.getClass().getSimpleName();
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.add(R.id.content, fragment, TAG);
-        fragmentTransaction.addToBackStack(TAG);
-        fragmentTransaction.commit();
+//        SharedPreferences sharedPreferences = getActivity().getSharedPreferences("SharedPrefs", MODE_PRIVATE);
+//        boolean isNightMode = sharedPreferences.getBoolean("SwitchState", true);
+//        if (isNightMode) {
+//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+//        } else {
+//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+//        }
+
+
     }
 }
+
+
+//Freelancing project
+//        Mobile cum webapp
+//        About sharing quotes with a reward based revenue model
