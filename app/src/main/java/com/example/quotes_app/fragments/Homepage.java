@@ -1,10 +1,12 @@
 package com.example.quotes_app.fragments;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.quotes_app.R;
@@ -83,6 +85,15 @@ public class Homepage extends AppCompatActivity {
             fragmentTransaction.commit();
         }
 
+        SharedPreferences mPrefs = getSharedPreferences("THEME", 0);
+        boolean themeBoolean = mPrefs.getBoolean("theme_boolean", true);
+        if (themeBoolean) {
+            // Set theme to white
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else {
+            // Set theme to black
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
     }
 }
 

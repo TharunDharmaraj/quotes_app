@@ -3,6 +3,7 @@ package com.example.quotes_app.Authentication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -43,6 +44,7 @@ public class RetypePassword extends AppCompatActivity {
                 }
                 if (!TextUtils.isEmpty(retypePassword.getEditText().getText()) && !TextUtils.isEmpty(retypePassword.getEditText().getText())) {
                     password = typePassword.getEditText().getText().toString();
+                    Log.d("new password:",password);
                     rePassword = retypePassword.getEditText().getText().toString();
                     if (!password.equals(rePassword)) {
                         Toast.makeText(RetypePassword.this, "Passwords are not same!", Toast.LENGTH_SHORT).show();
